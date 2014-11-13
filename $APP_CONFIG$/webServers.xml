@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="37ddc967-79e5-4564-9670-554726b8674e" name="sftp@pattypi" url="http://pattypi:8080">
+        <fileTransfer host="pattypi" port="22" rootFolder="/home/pi" accessType="SFTP" password="dfd8dfcbdfd9dfdadfc8dfcfdfd8dfd8dfd3" username="pi">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6095e85c-21ca-4a03-a719-fff267f6fbb7" name="sftp@pqtimes_vagrant_vm" url="http://localhost:18080">
+        <fileTransfer host="localhost" port="2222" accessType="SFTP" password="dfdcdfcbdfcddfd8dfcbdfc4dfde" username="vagrant">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+    <sftpAdvancedGlobalOptions>
+      <SftpAdvancedOptions />
+    </sftpAdvancedGlobalOptions>
+  </component>
+</application>
+
