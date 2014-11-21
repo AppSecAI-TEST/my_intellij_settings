@@ -417,7 +417,7 @@
   </component>
   <component name="RecentTaskRepositories">
     <GitHub shared="false" url="github.com">
-      <commitMessageFormat>fixes {id} {summary}</commitMessageFormat>
+      <commitMessageFormat>fixes #{number} {summary}</commitMessageFormat>
       <password />
       <token>dfcedf9bdf9fdf9ddf9cdf9fdf9fdf9edfc8df9adf9fdfc8df99df9ddfcfdfc8df9edf9fdf98dfc9df9edfccdf98df9fdfcfdf92dfc9df9adf9fdfccdf9bdfcbdfcedf93dfcfdf9edf9edf9adfcbdf9f</token>
       <option name="loginAnonymously" value="false" />
