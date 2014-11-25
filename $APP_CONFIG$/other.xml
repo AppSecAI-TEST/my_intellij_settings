@@ -373,7 +373,7 @@
     <option name="PAC_URL" value="" />
   </component>
   <component name="PhpRefactoringSettings">
-    <option name="EXTRACT_FIELD_DEFAULT_VISIBILITY" value="public" />
+    <option name="EXTRACT_FIELD_DEFAULT_VISIBILITY" value="protected" />
   </component>
   <component name="PropertiesSeparatorManager">
     <file url="resourceBundle:file:///home/phueper/work/sidion/svn/actano/trunk/pe_rplan/rplan-client-core/rplan-client-core-lib/src/main/resources/de/actano/rplan/resources/rplan" separator="\u002e" />
