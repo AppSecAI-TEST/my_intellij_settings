@@ -27,6 +27,12 @@
   <option name="RIGHT_MARGIN" value="140" />
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <option name="WRAP_COMMENTS" value="true" />
+  <PHPCodeStyleSettings>
+    <option name="ALIGN_PHPDOC_PARAM_NAMES" value="true" />
+    <option name="ALIGN_PHPDOC_COMMENTS" value="true" />
+    <option name="PHPDOC_WRAP_LONG_LINES" value="true" />
+    <option name="ALIGN_CLASS_CONSTANTS" value="true" />
+  </PHPCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
@@ -79,6 +85,7 @@
     <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
     <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
+    <option name="ALIGN_GROUP_FIELD_DECLARATIONS" value="true" />
     <option name="SPACE_AFTER_TYPE_CAST" value="true" />
     <option name="CALL_PARAMETERS_WRAP" value="5" />
     <option name="CALL_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
