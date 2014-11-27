@@ -83,10 +83,14 @@
     <option name="SAFE_DELETE_SEARCH_IN_NON_JAVA" value="false" />
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FILE" value="false" />
     <option name="RENAME_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
+    <option name="RENAME_SEARCH_FOR_REFERENCES_FOR_DIRECTORY" value="false" />
     <option name="MOVE_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
   </component>
   <component name="CodeStyleSchemes">
     <option name="CURRENT_SCHEME_NAME" value="Default" />
+  </component>
+  <component name="CodeStyleSchemesUIConfiguration">
+    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:$USER_HOME$/work/proQrent/pq_times_reloaded/pqtimes/resources/code-style-templates/pqtimes_intellij_js_codestyle_tpl.xml" />
   </component>
   <component name="CvsApplicationLevelConfiguration">
     <option name="EXT_CONFIGURATION">
