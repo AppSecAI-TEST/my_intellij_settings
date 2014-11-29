@@ -3,7 +3,7 @@
     <option name="messDetectorPath" value="/usr/bin/phpmd" />
   </component>
   <component name="PhpCodeSniffer">
-    <option name="phpCodeSnifferPath" value="/usr/bin/phpcs" />
+    <option name="phpCodeSnifferPath" value="$USER_HOME$/work/proQrent/pq_times_reloaded/pqtimes/api/vendor/squizlabs/php_codesniffer/scripts/phpcs" />
     <option name="standards" value="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" />
   </component>
   <component name="PhpInterpreters">
