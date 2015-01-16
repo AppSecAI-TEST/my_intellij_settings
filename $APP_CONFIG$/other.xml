@@ -202,15 +202,15 @@
   </component>
   <component name="ExternalResourceManagerImpl">
     <resource url="http://dozer.sourceforge.net/schema/beanmapping.xsd" location="$USER_HOME$/.IntelliJIdea14/system/extResources/70d44c43_beanmapping.xsd" />
-    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="urn:idea:xslt-plugin#extensions" />
-    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
   <component name="FindSettings">
@@ -436,6 +436,18 @@
       <option name="user" value="" />
       <username />
     </GitHub>
+    <JIRA shared="true" url="https://jira.actano.de">
+      <option name="apiType" value="REST_2_0" />
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <password>dff3dfc4dfcddfdddf8bdf8bdf98df9adf9bdf9edf9adf9c</password>
+      <option name="jiraVersion" value="5.2.10" />
+      <option name="loginAnonymously" value="false" />
+      <option name="searchQuery" value="assignee = currentUser() and resolution = Unresolved order by updated" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="true" />
+      <option name="useProxy" value="false" />
+      <username>phueper</username>
+    </JIRA>
   </component>
   <component name="RefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="false" />
