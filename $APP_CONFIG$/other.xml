@@ -424,13 +424,13 @@
   </component>
   <component name="RecentTaskRepositories">
     <GitHub shared="false" url="github.com">
-      <commitMessageFormat>fixes #{number} {summary}</commitMessageFormat>
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
       <password />
       <token>dfcedf9bdf9fdf9ddf9cdf9fdf9fdf9edfc8df9adf9fdfc8df99df9ddfcfdfc8df9edf9fdf98dfc9df9edfccdf98df9fdfcfdf92dfc9df9adf9fdfccdf9bdfcbdfcedf93dfcfdf9edf9edf9adfcbdf9f</token>
       <option name="loginAnonymously" value="false" />
-      <option name="repoAuthor" value="proQrent" />
-      <option name="repoName" value="pqtimes" />
-      <option name="shouldFormatCommitMessage" value="true" />
+      <option name="repoAuthor" value="Pi4J" />
+      <option name="repoName" value="pi4j" />
+      <option name="shouldFormatCommitMessage" value="false" />
       <option name="useHttpAuthentication" value="false" />
       <option name="useProxy" value="false" />
       <option name="user" value="" />
@@ -624,5 +624,5 @@
     <ignored-resource url="http://maven.apache.org/POM/4.0.0" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
-  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" COMPARISON_POLICY="Trim space" />
+  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" COMPARISON_POLICY="Default" />
 </application>
