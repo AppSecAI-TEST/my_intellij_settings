@@ -124,15 +124,15 @@
   </component>
   <component name="ExternalResourceManagerImpl">
     <resource url="http://dozer.sourceforge.net/schema/beanmapping.xsd" location="$USER_HOME$/.IntelliJIdea14/system/extResources/70d44c43_beanmapping.xsd" />
-    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
-    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
     <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
   <component name="GlobalAntConfiguration">
@@ -158,17 +158,17 @@
     <GitHub shared="false" url="github.com">
       <commitMessageFormat>{id} {summary}</commitMessageFormat>
       <password />
-      <token>dfcedf9bdf9fdf9ddf9cdf9fdf9fdf9edfc8df9adf9fdfc8df99df9ddfcfdfc8df9edf9fdf98dfc9df9edfccdf98df9fdfcfdf92dfc9df9adf9fdfccdf9bdfcbdfcedf93dfcfdf9edf9edf9adfcbdf9f</token>
+      <token>df9bdfcbdfcbdf9edf9edf9cdfcfdf99dfcfdfcfdfccdfccdfcbdf92dfccdf9bdf9fdf93dfc8df9edf9bdfcfdf9adfcbdf92df92dfcedf9bdf99dfc8dfc8dfccdf9edf9ddf9cdfc9dfcbdf9edfccdf93</token>
       <option name="loginAnonymously" value="false" />
-      <option name="repoAuthor" value="Pi4J" />
-      <option name="repoName" value="pi4j" />
+      <option name="repoAuthor" value="proQrent" />
+      <option name="repoName" value="pQintranet_app" />
       <option name="shouldFormatCommitMessage" value="false" />
       <option name="useHttpAuthentication" value="false" />
       <option name="useProxy" value="false" />
       <option name="user" value="" />
       <username />
     </GitHub>
-    <JIRA shared="true" url="https://jira.actano.de">
+    <JIRA shared="false" url="https://jira.actano.de">
       <option name="apiType" value="REST_2_0" />
       <commitMessageFormat>{id} {summary}</commitMessageFormat>
       <password>dff3dfc4dfcddfdddf8bdf8bdf98df9adf9bdf9edf9adf9c</password>
