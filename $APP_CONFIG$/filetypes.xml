@@ -2,14 +2,14 @@
   <component name="FileTypeManager" version="11">
     <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;*.o;*.obj;" />
     <extensionMap>
+      <mapping ext="bin" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="r0013738" type="PLAIN_TEXT" />
-      <mapping ext="bin" type="PLAIN_TEXT" />
       <mapping ext="r0013312_0013343" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="install4j" type="XML" />
     </extensionMap>
-    <setting name="fileTypeChangedCounter" value="3" />
+    <setting name="fileTypeChangedCounter" value="4" />
   </component>
 </application>
