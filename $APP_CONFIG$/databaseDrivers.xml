@@ -43,16 +43,16 @@
       <option name="auto-sync" value="false" />
       <option name="auto-commit" value="false" />
       <library>
-        <url>file://$USER_HOME$/.IntelliJIdea13/config/jdbc-drivers/oracle-driver-license.txt</url>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/oracle-driver-license.txt</url>
       </library>
       <library>
-        <url>file://$USER_HOME$/.IntelliJIdea13/config/jdbc-drivers/xdb6-11.2.0.4.jar</url>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xmlparserv2.jar</url>
       </library>
       <library>
-        <url>file://$USER_HOME$/.IntelliJIdea13/config/jdbc-drivers/xmlparserv2.jar</url>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/ojdbc6-11.2.0.4.jar</url>
       </library>
       <library>
-        <url>file://$USER_HOME$/.IntelliJIdea13/config/jdbc-drivers/ojdbc6-11.2.0.4.jar</url>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xdb6-11.2.0.4.jar</url>
       </library>
     </driver>
     <driver id="postgresql" name="PostgreSQL" dialect="PostgreSQL">
