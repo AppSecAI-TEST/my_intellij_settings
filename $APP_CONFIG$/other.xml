@@ -248,23 +248,6 @@
     <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/work/sidion/svn/actano/trunk" />
   </component>
   <component name="WebServicesPluginSettings" WebServicesUrlPathPrefix="/services" PathToAxis2="$USER_HOME$/work/sidion/svn/actano/ProfServices/vw-pit/pit-connect/build/axis2-1.4.1/WEB-INF" ASK_TO_INSTALL_SOAPUI="true" />
-  <component name="XDebuggerSettings">
-    <data-views />
-    <general />
-    <debuggers>
-      <debugger id="groovy_debugger">
-        <configuration />
-      </debugger>
-      <debugger id="javascript">
-        <configuration>
-          <custom-object-presentation />
-        </configuration>
-      </debugger>
-      <debugger id="ruby">
-        <configuration />
-      </debugger>
-    </debuggers>
-  </component>
   <component name="XPathView.XPathViewPlugin">
     <option name="attributes">
       <TextAttributes />
