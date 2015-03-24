@@ -1,6 +1,6 @@
 <application>
-  <component name="FileTypeManager" version="11">
-    <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;*.o;*.obj;" />
+  <component name="FileTypeManager" version="13">
+    <ignoreFiles list="*.hprof;*.o;*.obj;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.bundle;.git;.hg;.pyc;.pyo;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="r0013738" type="PLAIN_TEXT" />
@@ -10,6 +10,5 @@
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="install4j" type="XML" />
     </extensionMap>
-    <setting name="fileTypeChangedCounter" value="4" />
   </component>
 </application>
