@@ -8,7 +8,7 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/bin" id="c2efbd47-c71d-40ac-afc3-26d602e25565" name="PHP 5.5" />
+      <interpreter home="/usr/bin" id="c2efbd47-c71d-40ac-afc3-26d602e25565" name="PHP 5.5" debugger_id="" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
