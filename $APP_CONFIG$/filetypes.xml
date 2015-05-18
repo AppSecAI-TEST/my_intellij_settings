@@ -9,6 +9,7 @@
       <mapping ext="r0013312_0013343" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
+      <mapping ext="cron" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="Stylus" />
       <mapping ext="install4j" type="XML" />
     </extensionMap>
