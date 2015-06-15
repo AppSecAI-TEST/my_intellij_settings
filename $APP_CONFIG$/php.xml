@@ -14,7 +14,7 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.5">
-        <phpinfo php_cli="" path_separator=":" remote_host="127.0.0.1" version="5.5.9-1ubuntu4.3">
+        <phpinfo binary_type="PHP" php_cli="" path_separator=":" remote_host="127.0.0.1" version="5.5.9-1ubuntu4.3">
           <additional_php_ini />
           <configuration_file />
           <configuration_options>
