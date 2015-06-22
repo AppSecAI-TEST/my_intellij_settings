@@ -3,6 +3,7 @@
     <ignoreFiles list="*.hprof;*.o;*.obj;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.bundle;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping ext="j2" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="r0013738" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
