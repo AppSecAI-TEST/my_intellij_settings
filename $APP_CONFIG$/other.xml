@@ -220,6 +220,13 @@
             </set>
           </value>
         </entry>
+        <entry key="https://srv-vmsvn02.actano.local/svn/pe_rplanng/trunk">
+          <value>
+            <set>
+              <option value="$USER_HOME$/work/sidion/svn/actano/trunk/pe_rplanng" />
+            </set>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
