@@ -134,11 +134,28 @@
     <file url="file://$USER_HOME$/work/sidion/svn/actano/trunk/pe_rplan/rplan-client-core/rplan-client-core-reengineering/src/test/resources/test.properties" separator="\u005f" />
   </component>
   <component name="RecentTaskRepositories">
-    <GitHub shared="false" url="github.com">
+    <GitHub shared="false" url="https://github.com">
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <password />
+      <token>dfccdfcedf9fdf98df9bdf9adf9edf98df9edfc8df9fdf9bdf99df9fdfc8df9adf9ddfcbdf9bdfcedf9cdf9bdf9ddfcbdf9cdf92dfccdf9fdfcedf9fdf9cdf9fdf98dfcedf9cdfccdf9cdfcfdf9adf9c</token>
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="repoAuthor" value="proQrent" />
+      <option name="repoName" value="pqtimes" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <option name="user" value="" />
+      <username />
+    </GitHub>
+    <GitHub shared="false" url="http://github.com">
       <commitMessageFormat>{id} {summary}</commitMessageFormat>
       <password />
       <token>df9bdfcbdfcbdf9edf9edf9cdfcfdf99dfcfdfcfdfccdfccdfcbdf92dfccdf9bdf9fdf93dfc8df9edf9bdfcfdf9adfcbdf92df92dfcedf9bdf99dfc8dfc8dfccdf9edf9ddf9cdfc9dfcbdf9edfccdf93</token>
       <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
       <option name="repoAuthor" value="proQrent" />
       <option name="repoName" value="pQintranet_app" />
       <option name="shouldFormatCommitMessage" value="false" />
@@ -153,6 +170,8 @@
       <password>dff3dfc4dfcddfdddf8bdf8bdf98df9adf9bdf9edf9adf9c</password>
       <option name="jiraVersion" value="5.2.10" />
       <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
       <option name="searchQuery" value="assignee = currentUser() and resolution = Unresolved order by updated" />
       <option name="shouldFormatCommitMessage" value="false" />
       <option name="useHttpAuthentication" value="true" />
