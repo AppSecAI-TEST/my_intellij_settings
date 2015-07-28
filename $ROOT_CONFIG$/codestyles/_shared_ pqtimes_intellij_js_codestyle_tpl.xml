@@ -6,6 +6,7 @@
     <option name="ALIGN_MULTILINE_VAR_DECLARATION" value="true" />
   </JSCodeStyleSettings>
   <XML>
+    <option name="XML_ATTRIBUTE_WRAP" value="4" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="JavaScript">
