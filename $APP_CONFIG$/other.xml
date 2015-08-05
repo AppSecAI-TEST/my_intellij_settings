@@ -267,7 +267,7 @@
   <component name="VcsApplicationSettings" PATCH_STORAGE_LOCATION="$USER_HOME$/work/sidion/svn/actano/trunk">
     <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/work/sidion/svn/actano/trunk" />
   </component>
-  <component name="WebServicesPluginSettings" WebServicesUrlPathPrefix="/services" PathToAxis2="$USER_HOME$/work/sidion/svn/actano/ProfServices/vw-pit/pit-connect/build/axis2-1.4.1/WEB-INF" ASK_TO_INSTALL_SOAPUI="true" />
+  <component name="WebServicesPluginSettings" PathToAxis2="$USER_HOME$/work/sidion/svn/actano/ProfServices/vw-pit/pit-connect/build/axis2-1.4.1/WEB-INF" />
   <component name="XPathView.XPathViewPlugin">
     <option name="attributes">
       <TextAttributes />
