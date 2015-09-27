@@ -4,7 +4,6 @@
     <extensionMap>
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern=".aml_result-xjcStaleFlag" type="PLAIN_TEXT" />
-      <mapping ext="sxw" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="r0013738" type="PLAIN_TEXT" />
@@ -12,6 +11,7 @@
       <mapping ext="r0013312_0013343" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
+      <mapping ext="sxw" type="PLAIN_TEXT" />
       <mapping ext="cron" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="Stylus" />
       <mapping ext="install4j" type="XML" />
