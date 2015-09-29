@@ -15,6 +15,7 @@
       <mapping ext="cron" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="Stylus" />
       <mapping ext="install4j" type="XML" />
+      <mapping ext="rpx" type="XML" />
     </extensionMap>
   </component>
 </application>
