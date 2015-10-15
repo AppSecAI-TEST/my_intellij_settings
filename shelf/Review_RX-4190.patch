@@ -1,0 +1,165 @@
+Index: lib/page-profile/teams/details/team-members/index.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/page-profile/teams/details/team-members/index.coffee	(date 1444907935000)
++++ lib/page-profile/teams/details/team-members/index.coffee	(revision )
+@@ -3,26 +3,47 @@
+ React = require 'react'
+ r = require 'r-dom'
+ 
++{connect} = require 'react-redux'
++{bindActionCreators} = require 'redux'
+ {translate} = require 'alien'
+ teamTranslations = require '../translations'
+ 
++{readTeamEmails} = require 'organisations/actions'
++
+ class TeamMembers extends React.Component
+     @propTypes:
++        teamId: React.PropTypes.string.isRequired
+         members: React.PropTypes.array.isRequired
++        readTeamEmails: React.PropTypes.func
+ 
+     @defaultProps:
+         members: []
++        readTeamEmails: ->
+ 
+     render: ->
+         r.div [
+             r.h2 @props.i18n.t 'team_members_title'
+-            r.ul { className: 'memberList' },
++            r.ul {className: 'memberList'},
+                 for member in @props.members
+                     r.li member
+         ]
+ 
++    componentWillMount: ->
++        @props.readTeamEmails(@props.teamId)
++
++mapStateToProps = (state) ->
++    {
++        members: state.getIn(['teams', 'userEmails'])
++    }
++
++mapDispatchToProps = (dispatch) ->
++    bindActionCreators {readTeamEmails}, dispatch
++
+ TranslatedTeamMembers = translate(teamTranslations)(TeamMembers)
++TeamMembersContainer = connect(mapStateToProps, mapDispatchToProps)(TranslatedTeamMembers)
+ 
++
+ module.exports = {
+     TeamMembers: TranslatedTeamMembers
++    TeamMembersContainer
+ }
+Index: lib/page-profile/teams/details/index.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/page-profile/teams/details/index.coffee	(date 1444907935000)
++++ lib/page-profile/teams/details/index.coffee	(revision )
+@@ -3,7 +3,7 @@
+ React = require 'react'
+ 
+ {Column, Row} = require 'layout'
+-{TeamMembers} = require './team-members'
++{TeamMembersContainer} = require './team-members'
+ {TeamNameContainer} = require './team-name'
+ {NavigationIcon} = require '../../page/navigation'
+ {TeamDeletionContainer} = require './deletion'
+@@ -37,10 +37,9 @@
+                 teamName: team.get 'title'
+         ]
+         r Row, [
+-            r TeamMembers,
++            r TeamMembersContainer,
+                 ref: 'teamMembers'
+-                members: for userEmail in team.get('userEmails').toJS()
+-                    userEmail.email
++                teamId: team.get 'id'
+         ]
+         r Row, [
+             r TeamDeletionContainer,
+Index: lib/organisations/actions.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/organisations/actions.coffee	(date 1444907935000)
++++ lib/organisations/actions.coffee	(revision )
+@@ -27,6 +27,7 @@
+                 meta:
+                     pending: false
+                 payload: team
++
+         .catch (err) ->
+             dispatch
+                 type: 'READ_TEAM'
+@@ -60,6 +61,35 @@
+                 error: true
+                 payload: err
+ 
++readTeamEmails = (id, _rest = rest) ->
++    (dispatch) ->
++        dispatch
++            type: 'READ_TEAM_EMAILS'
++            meta:
++                pending: true
++            payload:
++                id: id
++        _rest.getAsync "#{API_PREFIX}/#{id}/emails"
++        .then (res) ->
++
++            userEmails = _.extend
++                'id': id
++                res.body.value
++
++            dispatch
++                type: 'READ_TEAM_EMAILS'
++                meta:
++                    pending: false
++                payload: userEmails
++        .catch (err) ->
++            dispatch
++                type: 'READ_TEAM_EMAILS'
++                meta:
++                    pending: false
++                error: true
++                payload: err
++
++
+ readTeams = (_readTeam = readTeam, _rest = rest) ->
+     (dispatch) ->
+         dispatch
+@@ -158,6 +188,7 @@
+ module.exports = {
+     readTeam
+     readAclTeamTitle
++    readTeamEmails
+     readTeams
+     updateTeamName
+     writeNewTeam
+\ No newline at end of file
+Index: lib/organisations/server.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/organisations/server.coffee	(date 1444907935000)
++++ lib/organisations/server.coffee	(revision )
+@@ -71,12 +71,6 @@
+ 
+         organisationDTO = _serializeOrganisationToDTO organisation
+ 
+-        # NOTE: users and userEmails can be combined, kept like this for
+-        # backwards compatibility with "old organisation pages"
+-        organisationDTO.value.userEmails = users.map (user) ->
+-            id: user.id()
+-            email: user.email()
+-
+         res.json 200, organisationDTO
+ 
+     ###
