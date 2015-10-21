@@ -164,16 +164,16 @@
       <option name="user" value="" />
       <username />
     </GitHub>
-    <JIRA shared="false" url="https://jira.actano.de">
+    <JIRA shared="true" url="https://jira.actano.de">
       <option name="apiType" value="REST_2_0" />
-      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <commitMessageFormat>{id}: {summary}</commitMessageFormat>
       <password>dff3dfc4dfcddfdddf8bdf8bdf98df9adf9bdf9fdf9adf9c</password>
       <option name="jiraVersion" value="5.2.10" />
       <option name="loginAnonymously" value="false" />
       <option name="preferredCloseTaskState" />
       <option name="preferredOpenTaskState" />
       <option name="searchQuery" value="assignee = currentUser() and resolution = Unresolved order by updated" />
-      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="shouldFormatCommitMessage" value="true" />
       <option name="useHttpAuthentication" value="true" />
       <option name="useProxy" value="false" />
       <username>phueper</username>
