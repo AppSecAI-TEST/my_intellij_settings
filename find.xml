@@ -9,6 +9,7 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="selection" />
+    <option name="FILE_MASK" value="logback-test.xml" />
     <recentFileMasks>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
@@ -20,6 +21,7 @@
       <mask>*.properties</mask>
       <mask>pom.xml</mask>
       <mask>*.xml</mask>
+      <mask>logback-test.xml</mask>
     </recentFileMasks>
   </component>
 </application>
