@@ -1,0 +1,98 @@
+Index: lib/page-profile/teams/details/invitation/test/component-invitation.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/page-profile/teams/details/invitation/test/component-invitation.coffee	(date 1446191771000)
++++ lib/page-profile/teams/details/invitation/test/component-invitation.coffee	(revision )
+@@ -8,6 +8,7 @@
+     sandbox = null
+     deleteMemberToken = null
+     generateMemberToken = null
++    e = null
+ 
+     before 'require', ->
+         require 'sinon-as-promised'
+@@ -19,7 +20,10 @@
+     before 'mock', ->
+         sandbox = sinon.sandbox.create()
+         deleteMemberToken = sandbox.stub()
++        deleteMemberToken.resolves()
+         generateMemberToken = sandbox.stub()
++        generateMemberToken.resolves()
++        e = preventDefault: sandbox.stub()
+ 
+     after 'mock', ->
+         sandbox.restore()
+@@ -27,15 +31,17 @@
+     afterEach ->
+         sandbox.reset()
+ 
+-    createTeamInvitation = (props) ->
++    createTeamInvitation = (teamId = 'some-team-id', memberToken = 'some-member-token') ->
++        props = [
++            teamId
++            memberToken
++            deleteMemberToken
++            generateMemberToken
++        ]
+         sd.shallowRender React.createElement TeamInvitation, props
+ 
+     it 'should display a text input containing the memberToken', ->
+         teamInvitation = createTeamInvitation
+-            teamId: 'some-team-id'
+-            memberToken: 'some-member-token'
+-            deleteMemberToken: deleteMemberToken
+-            generateMemberToken: generateMemberToken
+         memberTokenInput = teamInvitation.findNode 'TextInput'
+ 
+         invitationLink = "#{externalLinkPrefix()}/user/teams/some-team-id/some-member-token"
+@@ -43,46 +49,25 @@
+ 
+     it 'should display a delete button', ->
+         teamInvitation = createTeamInvitation
+-            teamId: 'some-team-id'
+-            memberToken: 'some-member-token'
+-            deleteMemberToken: deleteMemberToken
+-            generateMemberToken: generateMemberToken
+         deleteMemberTokenButton = teamInvitation.findNode 'Button'
+ 
+         expect(deleteMemberTokenButton.props.icon).to.equal 'times'
+ 
+     it 'should display a generate new button if memberToken is not set', ->
+-        teamInvitation = createTeamInvitation
+-            teamId: 'some-team-id'
+-            memberToken: null
+-            deleteMemberToken: deleteMemberToken
+-            generateMemberToken: generateMemberToken
++        teamInvitation = createTeamInvitation 'some-team-id', null
+         generateNewButton = teamInvitation.findNode 'Button'
+ 
+         expect(generateNewButton.props.text).to.equal 'team_invitation_button_generate'
+ 
+     it 'should call action creator deleteMemberToken on submit when memberToken is set', ->
+-        e = preventDefault: sandbox.stub()
+         teamInvitation = createTeamInvitation
+-            teamId: 'some-team-id'
+-            memberToken: 'some-member-token'
+-            deleteMemberToken: deleteMemberToken
+-            generateMemberToken: generateMemberToken
+-        deleteMemberToken.resolves()
+         teamInvitation.props.onSubmit(e)
+         .then ->
+             expect(deleteMemberToken).to.have.been.calledOnce
+             expect(deleteMemberToken).to.have.been.calledWith 'some-team-id'
+ 
+     it 'should call action creator generateMemberToken on submit when memberToken is not set', ->
+-        e =
+-            preventDefault: sandbox.stub()
+-        teamInvitation = createTeamInvitation
+-            teamId: 'some-team-id'
+-            memberToken: null
+-            deleteMemberToken: deleteMemberToken
+-            generateMemberToken: generateMemberToken
+-        generateMemberToken.resolves()
++        teamInvitation = createTeamInvitation 'some-team-id', null
+         teamInvitation.props.onSubmit(e)
+         .then ->
+             expect(generateMemberToken).to.have.been.calledOnce
