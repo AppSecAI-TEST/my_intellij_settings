@@ -1,0 +1,32 @@
+Index: lib/planning-object-acl-type-service/service.coffee
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/planning-object-acl-type-service/service.coffee	(revision e92a5deaf5488103bda4e5943b7eb6306805e37e)
++++ lib/planning-object-acl-type-service/service.coffee	(revision )
+@@ -24,12 +24,18 @@
+         else
+             type: doc.value.type
+ 
+-    service.extendAcl = Promise.coroutine (aclList) ->
+-        aclListJs = aclList.toJS()
+-        for entry in aclListJs
+-            entry.principalPartial = yield service.findPrincipalEntity entry.principalId
+-
+-        Immutable.fromJS(aclListJs).toSet()
++    service.extendAcl = Promise.coroutine (aclSet) ->
++        console.log 'aclList: ', aclSet
++#        aclListJs = aclList.toJS()
++#        for entry in aclListJs
++#            entry.principalPartial = yield service.findPrincipalEntity entry.principalId
++#
++#        Immutable.fromJS(aclListJs).toSet()
++        aclSet.map (entry) ->
++            console.log 'entry: ', entry
++            entry.update 'principalPartialId', yield service.findPrincipalEntity entry.principalId
++            console.log 'entry: ', entry
++            entry
+ 
+     return service
+ 
