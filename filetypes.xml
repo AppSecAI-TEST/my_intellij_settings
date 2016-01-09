@@ -1,0 +1,26 @@
+<application>
+  <component name="FileTypeManager" version="16">
+    <ignoreFiles list="*.hprof;*.o;*.obj;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping pattern="integration" type="PLAIN_TEXT" />
+      <mapping pattern="production" type="PLAIN_TEXT" />
+      <mapping pattern=".aml_result-xjcStaleFlag" type="PLAIN_TEXT" />
+      <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping ext="sxw" type="PLAIN_TEXT" />
+      <mapping ext="influxdb" type="PLAIN_TEXT" />
+      <mapping ext="dev" type="PLAIN_TEXT" />
+      <mapping ext="mo" type="PLAIN_TEXT" />
+      <mapping ext="j2" type="PLAIN_TEXT" />
+      <mapping ext="r0013312_0013343" type="PLAIN_TEXT" />
+      <mapping ext="cron" type="PLAIN_TEXT" />
+      <mapping ext="bin" type="PLAIN_TEXT" />
+      <mapping ext="r0013738" type="PLAIN_TEXT" />
+      <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="ini" type="PLAIN_TEXT" />
+      <mapping ext="cfg" type="Stylus" />
+      <mapping ext="rpx" type="XML" />
+      <mapping ext="install4j" type="XML" />
+    </extensionMap>
+  </component>
+</application>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="WebDeploymentTransportHostTargets">
+    <option name="stateHostTargets">
+      <list>
+        <WebDeploymentTransportHostTarget>
+          <option name="hostId" value="37ddc967-79e5-4564-9670-554726b8674e" />
+          <option name="target">
+            <TransportTarget>
+              <option name="id" value="175c3275-e4a9-4804-826d-b8a5a2e256b5" />
+            </TransportTarget>
+          </option>
+          <option name="targetPath" value="/tomcat7" />
+        </WebDeploymentTransportHostTarget>
+        <WebDeploymentTransportHostTarget>
+          <option name="hostId" value="6095e85c-21ca-4a03-a719-fff267f6fbb7" />
+          <option name="target">
+            <TransportTarget>
+              <option name="id" value="215fde92-b32c-44f2-ad30-b4c908cf6a62" />
+            </TransportTarget>
+          </option>
+          <option name="targetPath" value="/tmp" />
+        </WebDeploymentTransportHostTarget>
+      </list>
+    </option>
+  </component>
+</application>
+
