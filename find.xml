@@ -5,6 +5,7 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="selection" />
+    <option name="FILE_MASK" value="*test*.coffee" />
     <recentFileMasks>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
@@ -18,12 +19,12 @@
       <mask>*styl</mask>
       <mask>test/*.coffee</mask>
       <mask>**/test/*.coffee</mask>
-      <mask>*test*.coffee</mask>
       <mask>*.xml</mask>
       <mask>*.properties</mask>
       <mask>*.styl</mask>
       <mask>*test.coffee</mask>
       <mask>*.coffee</mask>
+      <mask>*test*.coffee</mask>
     </recentFileMasks>
   </component>
 </application>
