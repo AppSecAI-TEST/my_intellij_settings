@@ -277,14 +277,6 @@
     <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/work/sidion/svn/actano/trunk" />
   </component>
   <component name="WebServicesPluginSettings" PathToAxis2="$USER_HOME$/work/sidion/svn/actano/ProfServices/vw-pit/pit-connect/build/axis2-1.4.1/WEB-INF" />
-  <component name="XPathView.XPathViewPlugin">
-    <option name="attributes">
-      <TextAttributes />
-    </option>
-    <option name="contextAttributes">
-      <TextAttributes />
-    </option>
-  </component>
   <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
     <recent_templates>
       <option name="RECENT_TEMPLATES">
