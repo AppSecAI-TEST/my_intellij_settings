@@ -119,12 +119,6 @@
     <option name="KEEP_ITN_PASSWORD" value="true" />
     <option name="EMAIL" value="" />
   </component>
-  <component name="ExternalResourceManagerImpl">
-    <resource url="http://dozer.sourceforge.net/schema/beanmapping.xsd" location="$USER_HOME$/.IntelliJIdea14/system/extResources/70d44c43_beanmapping.xsd" />
-    <resource url="http://maven.apache.org/plugins/maven-assembly-plugin/1.1.0" location="$USER_HOME$/.IntelliJIdea14/system/extResources/489cc366_assembly-1.1.0.xsd" />
-    <resource url="http://maven.apache.org/plugins/maven-assembly-plugin/1.1.2" location="$USER_HOME$/.IntelliJIdea14/system/extResources/48b8f268_assembly-1.1.2.xsd" />
-    <resource url="http://maven.apache.org/xsd/assembly-1.0.0.xsd" location="$USER_HOME$/.IntelliJIdea14/system/extResources/13b68825_assembly-1.0.0.xsd" />
-  </component>
   <component name="PropertiesSeparatorManager">
     <file url="resourceBundle:file:///home/phueper/work/sidion/svn/actano/trunk/pe_rplan/rplan-client-core/rplan-client-core-lib/src/main/resources/de/actano/rplan/resources/rplan" separator="\u002e" />
     <file url="resourceBundle:file:///home/phueper/work/sidion/svn/actano/ProfServices/vw-pit/pit-connect/pit-connect-gantt-chart/src/main/resources/de/actano/swpi/ganttimage/rplan/resources/rplan" separator="\u005f" />
