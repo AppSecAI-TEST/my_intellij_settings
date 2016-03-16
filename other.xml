@@ -69,6 +69,7 @@
   <component name="NodeJsLocalInterpreters">
     <local-interpreter path="/usr/bin/node">
       <version-cache version="4.2.4" last-modified="1450902888000" />
+      <npm-package value="/usr/lib/node_modules/npm" />
     </local-interpreter>
   </component>
   <component name="PropertiesSeparatorManager">
