@@ -67,7 +67,9 @@
     <option name="EMAIL" value="" />
   </component>
   <component name="NodeJsLocalInterpreters">
-    <local-interpreter path="/usr/bin/node" />
+    <local-interpreter path="/usr/bin/node">
+      <version-cache version="4.2.4" last-modified="1450902888000" />
+    </local-interpreter>
   </component>
   <component name="PropertiesSeparatorManager">
     <file url="resourceBundle:file:///home/phueper/work/sidion/svn/actano/trunk/pe_rplan/rplan-client-core/rplan-client-core-lib/src/main/resources/de/actano/rplan/resources/rplan" separator="\u002e" />
