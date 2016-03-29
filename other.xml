@@ -54,12 +54,6 @@
     <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
     <option name="SHOW_PATH" value="true" />
   </component>
-  <component name="DependencyUISettings">
-    <option name="UI_FLATTEN_PACKAGES" value="false" />
-    <option name="UI_FILTER_LEGALS" value="true" />
-    <option name="UI_GROUP_BY_SCOPE_TYPE" value="false" />
-    <option name="SCOPE_TYPE" value="file" />
-  </component>
   <component name="ErrorReportConfigurable">
     <option name="ITN_LOGIN" value="phueper" />
     <option name="ITN_PASSWORD_CRYPT" value="c2VzYW05OA==" />
