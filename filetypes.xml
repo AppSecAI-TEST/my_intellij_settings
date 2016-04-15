@@ -23,6 +23,7 @@
       <mapping ext="ini" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="Stylus" />
       <mapping ext="rpx" type="XML" />
+      <mapping ext="rxf" type="XML" />
       <mapping ext="install4j" type="XML" />
     </extensionMap>
   </component>
