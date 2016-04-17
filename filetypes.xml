@@ -3,6 +3,7 @@
     <ignoreFiles list="*.hprof;*.o;*.obj;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping ext="cshtml" type="C#" />
+      <mapping pattern=".gitignore_global" type="Ignore file" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern="integration" type="PLAIN_TEXT" />
       <mapping pattern="production" type="PLAIN_TEXT" />
