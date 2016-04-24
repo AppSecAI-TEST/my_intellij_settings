@@ -3,8 +3,9 @@
     <option name="messDetectorPath" value="/usr/bin/phpmd" />
   </component>
   <component name="PhpCodeSniffer">
-    <option name="phpCodeSnifferPath" value="$USER_HOME$/work/proQrent/pq_times_reloaded/pqtimes/api/vendor/squizlabs/php_codesniffer/scripts/phpcs" />
-    <option name="standards" value="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" />
+    <phpcs_settings>
+      <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PHPCompatibility;PSR1;PSR2;PhpCompatibility;Squiz;Zend" tool_path="$USER_HOME$/work/dzbank/git_svn/bdf/vendor/bin/phpcs" />
+    </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
     <interpreters>
