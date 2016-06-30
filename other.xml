@@ -130,7 +130,7 @@
     <JIRA shared="false" url="https://jira.actano.de">
       <option name="apiType" value="REST_2_0" />
       <commitMessageFormat>{id}: {summary}</commitMessageFormat>
-      <password>dff3dfc4dfcddfdddf8bdf8bdf98df9adf9bdf9fdf9adf9c</password>
+      <password>dff3dfc4dfcddfdddf8bdf8bdf98df9adf9bdf9cdf9adf9c</password>
       <option name="jiraVersion" value="5.2.10" />
       <option name="loginAnonymously" value="false" />
       <option name="preferredCloseTaskState" />
