@@ -2,19 +2,24 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="37ddc967-79e5-4564-9670-554726b8674e" name="sftp@pattypi" url="http://pattypi:8080">
-        <fileTransfer host="pattypi" port="22" rootFolder="/home/pi" accessType="SFTP" password="dfd8dfcbdfd9dfdadfc8dfcfdfd8dfd8dfd3" username="pi">
+        <fileTransfer host="pattypi" port="22" rootFolder="/home/pi" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="6095e85c-21ca-4a03-a719-fff267f6fbb7" name="sftp@pqtimes_vagrant_vm" url="http://localhost:18080">
-        <fileTransfer host="localhost" port="2222" accessType="SFTP" password="dfdcdfcbdfcddfd8dfcbdfc4dfde" username="vagrant">
+        <fileTransfer host="localhost" port="2222" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
     </option>
+  </component>
+  <component name="webServersAuthStorage">
+    <data>AAABEMsRicY+W/FbdOwfuR7xc3M77grIenKLhhVGwLytFeX5TDB3LcNkYAlnU20aNWKGVGFInCafHssNnq200GI4T+GwVUKHtS6RYis6KktJzzVQR5sbMTwN9eACZ0DZnF417O41ccDcxCVH3gsPLu8Nr29MpIfqkQFi7a8Jh2gfFjHukILyHPf2WOW0lL1DkS0+5jIta5loOGhzgl8rH8YjHyBUlqxfrPhPZTapMptScc5FNFO7zHnSKnIUGK2F1SRnOEfCs0D6KuNBia8SUyLZhB+L725f9Y5zYtUojArW8YjazpiGluF5WABsg+K8yDusERXspbBjJ0E3OVHRmLRyLHGs0V8o9fu/HMkX3uR0+t1rBYQ5X5TIB7LH7zsucSZ6Fw==</data>
   </component>
 </application>
