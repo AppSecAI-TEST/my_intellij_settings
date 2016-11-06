@@ -5,6 +5,7 @@
       <mapping ext="cshtml" type="C#" />
       <mapping pattern=".gitignore_global" type="Ignore file" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="docker/publish/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern="integration" type="PLAIN_TEXT" />
       <mapping pattern=".flowconfig" type="PLAIN_TEXT" />
