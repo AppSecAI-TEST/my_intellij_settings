@@ -98,7 +98,6 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
-    <option name="SPACE_WITHIN_BRACKETS" value="true" />
     <option name="WRAP_COMMENTS" value="true" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
     <indentOptions>
