@@ -25,10 +25,10 @@
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="--output $ProjectFileDir$/_intellij_transpile --map --compile $FileName$" />
       <option name="checkSyntaxErrors" value="true" />
-      <option name="description" value="Compiles .coffee files into .js files" />
+      <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="coffee" />
       <option name="immediateSync" value="true" />
