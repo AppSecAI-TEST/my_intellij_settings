@@ -97,7 +97,6 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
-    <option name="LINE_COMMENT_ADD_SPACE" value="false" />
     <option name="TERNARY_OPERATION_WRAP" value="1" />
     <option name="WRAP_COMMENTS" value="true" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
