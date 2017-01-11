@@ -7,6 +7,7 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Module 'js-joda'" />
+    <option name="FILE_MASK" value="*.system.js" />
     <recentFileMasks>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
@@ -30,6 +31,7 @@
       <mask>*.client.coffee</mask>
       <mask>*.system.coffee</mask>
       <mask>*.client.js</mask>
+      <mask>*.system.js</mask>
     </recentFileMasks>
   </component>
 </application>
