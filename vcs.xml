@@ -51,6 +51,6 @@
     <option name="cloneParentDir" value="$USER_HOME$/work/" />
   </component>
   <component name="VcsApplicationSettings">
-    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/tmp" />
+    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/work/sidion/git/actano/rplan/tmp" />
   </component>
 </application>
