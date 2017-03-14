@@ -3,6 +3,7 @@
     <ignoreFiles list="*.hprof;*.o;*.obj;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping ext="cshtml" type="C#" />
+      <mapping pattern="Jenkinsfile" type="Groovy" />
       <mapping pattern=".gitignore_global" type="Ignore file" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="docker/publish/Dockerfile" type="PLAIN_TEXT" />
@@ -15,6 +16,7 @@
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="6" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping ext="hpi" type="PLAIN_TEXT" />
       <mapping ext="sxw" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
       <mapping ext="influxdb" type="PLAIN_TEXT" />
