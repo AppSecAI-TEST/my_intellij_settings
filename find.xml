@@ -9,14 +9,8 @@
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*cunit*" />
     <recentFileMasks>
-      <mask>*.java</mask>
-      <mask>*.js</mask>
-      <mask>*.as</mask>
-      <mask>*.css</mask>
-      <mask>*.mxml</mask>
-      <mask>logback-test.xml</mask>
-      <mask>pom.xml</mask>
       <mask>*styl</mask>
       <mask>test/*.coffee</mask>
       <mask>**/test/*.coffee</mask>
@@ -33,13 +27,20 @@
       <mask>*.system.js</mask>
       <mask>*.system*.js</mask>
       <mask>*client.coffee</mask>
-      <mask>*cunit*</mask>
       <mask>*jsx</mask>
       <mask>j</mask>
       <mask>j-</mask>
       <mask>j-*</mask>
       <mask>j-*.</mask>
       <mask>j-*.md</mask>
+      <mask>*</mask>
+      <mask>*con</mask>
+      <mask>*co</mask>
+      <mask>*c</mask>
+      <mask>*cun</mask>
+      <mask>*cuni</mask>
+      <mask>*cunit</mask>
+      <mask>*cunit*</mask>
     </recentFileMasks>
   </component>
 </application>
