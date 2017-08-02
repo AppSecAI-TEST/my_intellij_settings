@@ -9,17 +9,13 @@
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.styl" />
     <recentFileMasks>
-      <mask>*styl</mask>
-      <mask>test/*.coffee</mask>
-      <mask>**/test/*.coffee</mask>
-      <mask>*.xml</mask>
       <mask>*.properties</mask>
       <mask>*test.coffee</mask>
       <mask>*.coffee</mask>
       <mask>*test*.coffee</mask>
       <mask>*.jade</mask>
-      <mask>*.styl</mask>
       <mask>*.client.coffee</mask>
       <mask>*.system.coffee</mask>
       <mask>*.client.js</mask>
@@ -32,7 +28,6 @@
       <mask>j-*</mask>
       <mask>j-*.</mask>
       <mask>j-*.md</mask>
-      <mask>*</mask>
       <mask>*con</mask>
       <mask>*co</mask>
       <mask>*c</mask>
@@ -40,6 +35,12 @@
       <mask>*cuni</mask>
       <mask>*cunit</mask>
       <mask>*cunit*</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.s</mask>
+      <mask>*.st</mask>
+      <mask>*.sty</mask>
+      <mask>*.styl</mask>
     </recentFileMasks>
   </component>
 </application>
