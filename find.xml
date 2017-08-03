@@ -9,13 +9,8 @@
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*system*" />
     <recentFileMasks>
-      <mask>*.properties</mask>
-      <mask>*test.coffee</mask>
-      <mask>*.coffee</mask>
-      <mask>*test*.coffee</mask>
-      <mask>*.jade</mask>
-      <mask>*.client.coffee</mask>
       <mask>*.system.coffee</mask>
       <mask>*.client.js</mask>
       <mask>*.system.js</mask>
@@ -34,12 +29,18 @@
       <mask>*cuni</mask>
       <mask>*cunit</mask>
       <mask>*cunit*</mask>
-      <mask>*</mask>
       <mask>*.</mask>
       <mask>*.s</mask>
       <mask>*.st</mask>
       <mask>*.sty</mask>
       <mask>*.styl</mask>
+      <mask>*</mask>
+      <mask>*s</mask>
+      <mask>*sys</mask>
+      <mask>*syst</mask>
+      <mask>*syste</mask>
+      <mask>*system</mask>
+      <mask>*system*</mask>
     </recentFileMasks>
   </component>
 </application>
