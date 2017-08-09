@@ -9,11 +9,8 @@
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*styl" />
     <recentFileMasks>
-      <mask>*.system.coffee</mask>
-      <mask>*.client.js</mask>
-      <mask>*.system.js</mask>
-      <mask>*.system*.js</mask>
       <mask>*client.coffee</mask>
       <mask>*jsx</mask>
       <mask>j</mask>
@@ -34,12 +31,16 @@
       <mask>*.sty</mask>
       <mask>*.styl</mask>
       <mask>*</mask>
-      <mask>*s</mask>
-      <mask>*sys</mask>
-      <mask>*syst</mask>
-      <mask>*syste</mask>
-      <mask>*system</mask>
       <mask>*system*</mask>
+      <mask>*system</mask>
+      <mask>*syste</mask>
+      <mask>*syst</mask>
+      <mask>*sys</mask>
+      <mask>*sy</mask>
+      <mask>*s</mask>
+      <mask>*st</mask>
+      <mask>*sty</mask>
+      <mask>*styl</mask>
     </recentFileMasks>
   </component>
 </application>
