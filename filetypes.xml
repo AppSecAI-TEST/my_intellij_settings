@@ -22,6 +22,7 @@
       <mapping ext="sxw" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
       <mapping ext="influxdb" type="PLAIN_TEXT" />
+      <mapping ext="orig" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="dev" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
