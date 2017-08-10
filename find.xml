@@ -10,10 +10,6 @@
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>*client.coffee</mask>
-      <mask>*jsx</mask>
-      <mask>j</mask>
-      <mask>j-</mask>
       <mask>j-*</mask>
       <mask>j-*.</mask>
       <mask>j-*.md</mask>
@@ -40,6 +36,10 @@
       <mask>*st</mask>
       <mask>*sty</mask>
       <mask>*styl</mask>
+      <mask>de</mask>
+      <mask>de_</mask>
+      <mask>de_DE</mask>
+      <mask>de_DE*</mask>
     </recentFileMasks>
   </component>
 </application>
